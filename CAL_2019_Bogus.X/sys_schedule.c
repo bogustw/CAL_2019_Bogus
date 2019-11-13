@@ -9,6 +9,7 @@
 #include "sys_tasks.h"
 #include "mcal_timers.h"
 #include "sys_schedule.h"
+#include "light_sig.h"
 
 
 BOOL u8FlagTask_5ms;

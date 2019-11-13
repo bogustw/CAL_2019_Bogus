@@ -5,4 +5,5 @@ general.h  \
 mcal_gpio.h  \
 sys_tasks.h  \
 mcal_timers.h  \
-sys_schedule.h 
+sys_schedule.h  \
+ light_sig.h 
