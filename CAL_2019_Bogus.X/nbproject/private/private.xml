@@ -3,12 +3,25 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/D:/CAL/CAL2019-2020/CAL_2019_Bogus/CAL_2019_Bogus.X/mcal_pwm.c</file>
-            <file>file:/D:/CAL/CAL2019-2020/CAL_2019_Bogus/CAL_2019_Bogus.X/mcal_timers.c</file>
-            <file>file:/D:/CAL/CAL2019-2020/CAL_2019_Bogus/CAL_2019_Bogus.X/main.c</file>
-            <file>file:/D:/CAL/CAL2019-2020/CAL_2019_Bogus/CAL_2019_Bogus.X/sys_schedule.c</file>
-            <file>file:/D:/CAL/CAL2019-2020/CAL_2019_Bogus/CAL_2019_Bogus.X/mcal_osc.c</file>
-            <file>file:/D:/CAL/CAL2019-2020/CAL_2019_Bogus/CAL_2019_Bogus.X/sys_tasks.c</file>
+            <file>file:/D:/CAL/CAL2019-2020/CAL_s5/CAL_2019_Bogus/CAL_2019_Bogus.X/mcal_encoder.h</file>
+            <file>file:/D:/CAL/CAL2019-2020/CAL_s5/CAL_2019_Bogus/CAL_2019_Bogus.X/mcal_gpio.c</file>
+            <file>file:/D:/CAL/CAL2019-2020/CAL_s5/CAL_2019_Bogus/CAL_2019_Bogus.X/hal_nRF.c</file>
+            <file>file:/D:/CAL/CAL2019-2020/CAL_s5/CAL_2019_Bogus/CAL_2019_Bogus.X/mcal_gpio.h</file>
+            <file>file:/D:/CAL/CAL2019-2020/CAL_s5/CAL_2019_Bogus/CAL_2019_Bogus.X/mcal_pwm.h</file>
+            <file>file:/D:/CAL/CAL2019-2020/CAL_s5/CAL_2019_Bogus/CAL_2019_Bogus.X/hal_nRF.h</file>
+            <file>file:/D:/CAL/CAL2019-2020/CAL_s5/CAL_2019_Bogus/CAL_2019_Bogus.X/sys_schedule.c</file>
+            <file>file:/D:/CAL/CAL2019-2020/CAL_s5/CAL_2019_Bogus/CAL_2019_Bogus.X/sys_tasks.h</file>
+            <file>file:/D:/CAL/CAL2019-2020/CAL_s5/CAL_2019_Bogus/CAL_2019_Bogus.X/sys_tasks.c</file>
+            <file>file:/D:/CAL/CAL2019-2020/CAL_s5/CAL_2019_Bogus/CAL_2019_Bogus.X/general.h</file>
+            <file>file:/D:/CAL/CAL2019-2020/CAL_s5/CAL_2019_Bogus/CAL_2019_Bogus.X/hal_dc.c</file>
+            <file>file:/D:/CAL/CAL2019-2020/CAL_s5/CAL_2019_Bogus/CAL_2019_Bogus.X/light_sig.h</file>
+            <file>file:/D:/CAL/CAL2019-2020/CAL_s5/CAL_2019_Bogus/CAL_2019_Bogus.X/sys_schedule.h</file>
+            <file>file:/D:/CAL/CAL2019-2020/CAL_s5/CAL_2019_Bogus/CAL_2019_Bogus.X/rte.h</file>
+            <file>file:/D:/CAL/CAL2019-2020/CAL_s5/CAL_2019_Bogus/CAL_2019_Bogus.X/mcal_adc.h</file>
+            <file>file:/D:/CAL/CAL2019-2020/CAL_s5/CAL_2019_Bogus/CAL_2019_Bogus.X/asw_com.h</file>
+            <file>file:/D:/CAL/CAL2019-2020/CAL_s5/CAL_2019_Bogus/CAL_2019_Bogus.X/hal_dc.h</file>
+            <file>file:/D:/CAL/CAL2019-2020/CAL_s5/CAL_2019_Bogus/CAL_2019_Bogus.X/general_types.h</file>
+            <file>file:/D:/CAL/CAL2019-2020/CAL_s5/CAL_2019_Bogus/CAL_2019_Bogus.X/mcal_pwm.c</file>
         </group>
     </open-files>
 </project-private>

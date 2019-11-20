@@ -12,6 +12,7 @@
 #include "asw_com.h"
 #include "light_sig.h"
 #include "mcal_gpio.h"
+#include "rte.h"
 
 T_U16 a = 0;
 int counter = 0;
@@ -21,6 +22,9 @@ void TASK_Inits()
 {
     MCAL_vInit();
     GPIO_u8SetPortPin(PORT_A, 10, DIGITAL ,OUTPUT);
+    RTE_vMotorInit();
+    RTE_vsetMotorSpeed(10);
+//    RTE_vsetMotorSpeed(1);
 }
 
 void TASK_1ms()
