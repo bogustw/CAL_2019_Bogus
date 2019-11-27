@@ -7,6 +7,11 @@
 
 #ifndef HAL_SERVO_H
 #define	HAL_SERVO_H
+#include "mcal_pwm.h"
+
+//void Hal_servoInit();
+void Hal_setAngle(T_F16 angle);
+
 
 #ifdef	__cplusplus
 extern "C" {

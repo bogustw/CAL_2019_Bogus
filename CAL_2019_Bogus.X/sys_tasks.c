@@ -13,6 +13,7 @@
 #include "light_sig.h"
 #include "mcal_gpio.h"
 #include "rte.h"
+#include "asw_move.h"
 
 T_U16 a = 0;
 int counter = 0;
@@ -23,7 +24,10 @@ void TASK_Inits()
     MCAL_vInit();
     GPIO_u8SetPortPin(PORT_A, 10, DIGITAL ,OUTPUT);
     RTE_vMotorInit();
-    RTE_vsetMotorSpeed(10);
+//    RTE_vsetMotorSpeed(20);
+//    RTE_vSetMotorDir(1);
+//    RTE_servoInit();
+   
 //    RTE_vsetMotorSpeed(1);
 }
 
@@ -78,4 +82,10 @@ void TASK_1000ms()
 {
 //    a = !a;
 //    GPIO_u8WritePortPin(PORT_A, 10, a);
+//        RTE_vMotorInit();
+//    RTE_vsetMotorSpeed(30);
+
+
+//    RTE_setAngle(170);
+    move_forward();
 }
