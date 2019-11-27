@@ -3,6 +3,7 @@
 
 void Hal_vMotorInit(){
       PWM1_vInit();
+      GPIO_u8SetPortPin(PORT_A, 9, DIGITAL, OUTPUT);
 }
 
 void Hal_vSetMotorSpeed(T_F16 speed){

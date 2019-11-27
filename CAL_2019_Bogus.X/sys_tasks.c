@@ -49,23 +49,23 @@ void TASK_10ms()
 
 void TASK_100ms()
 {   
-    loading ++;
-    counter++;
-    if(loading == 6){
-        loading = -5;
-    }
-    a = !a;
-    
-    if (counter == 2 && loading <6 && loading >= 0){
-        GPIO_u8WritePortPin(PORT_A, 10,a);
-        counter =0;
-        
-    }else {
-        GPIO_u8WritePortPin(PORT_A, 10,0);
-        if (loading == 0){
-            counter = 0;
-         }
-        }
+//    loading ++;
+//    counter++;
+//    if(loading == 6){
+//        loading = -5;
+//    }
+//    a = !a;
+//    
+//    if (counter == 2 && loading <6 && loading >= 0){
+//        GPIO_u8WritePortPin(PORT_A, 10,a);
+//        counter =0;
+//        
+//    }else {
+//        GPIO_u8WritePortPin(PORT_A, 10,0);
+//        if (loading == 0){
+//            counter = 0;
+//         }
+//        }
 //    Handle_light_signal();
 }
 
