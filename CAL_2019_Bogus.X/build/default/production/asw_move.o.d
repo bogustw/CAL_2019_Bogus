@@ -7,5 +7,6 @@ general.h  \
 general_types.h  \
 mcal_gpio.h  \
 hal_dc.h  \
+hal_lf.h  \
 rte.h  \
  sys_tasks.h 

@@ -9,8 +9,10 @@
 #define	ASW_MOVE_H
 #include "hal_servo.h"
 #include "hal_dc.h"
+#include "hal_lf.h"
 
 void asw_moveInit();
+void asw_moveToLine();
 void asw_moveUpAndDown();
 void asw_moveRightAndLeft();
 void move_forward();

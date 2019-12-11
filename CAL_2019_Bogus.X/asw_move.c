@@ -1,6 +1,7 @@
 #include "asw_move.h"
 #include "rte.h"
 #include "sys_tasks.h"
+#include "hal_lf.h"
 
 T_F16 angle = 60;
 BOOL dir = 1;
@@ -41,31 +42,31 @@ void asw_moveRightAndLeft()
     static T_U16 time = 0;
     switch(time)
     {
-        case 1:RTE_vSetAngle(50);
+        case 1:RTE_vSetAngle(65);
         break;
         
-        case 2: RTE_vSetAngle(60);
+        case 2: RTE_vSetAngle(70);
         break;
         
-        case 3: RTE_vSetAngle(70);
+        case 3: RTE_vSetAngle(75);
         break;
         
-        case 4: RTE_vSetAngle(80);
+        case 4: RTE_vSetAngle(85);
         break;
         
         case 5: RTE_vSetAngle(90);
         break;
         
-        case 6: RTE_vSetAngle(100);
+        case 6: RTE_vSetAngle(95);
         break;
         
-        case 7: RTE_vSetAngle(110);
+        case 7: RTE_vSetAngle(100);
         break;
         
         case 8: RTE_vSetAngle(110);
         break;
         
-        case 9: RTE_vSetAngle(130);
+        case 9: RTE_vSetAngle(115);
         break;
         
         default: RTE_vSetAngle(90);
@@ -77,6 +78,24 @@ void asw_moveRightAndLeft()
         time = 0;
     
 }
+
+void asw_moveToLine(){
+//    static T_U16 time = 0;
+    if(Hal_vGetLineFollower() == 0 )
+    {
+        RTE_vSetMotorDir(0);
+        RTE_vSetMotorSpeed(20);
+    }else if(Hal_vGetLineFollower() != 0){
+        RTE_vSetMotorDir(1);
+         RTE_vSetMotorSpeed(2);
+    }
+//    if(time < 15)
+//        ++time;
+//    else
+//        time = 0;
+    
+}
+
 
 
 void move_forward(){

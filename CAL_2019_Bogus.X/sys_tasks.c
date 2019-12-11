@@ -38,7 +38,7 @@ void TASK_1ms()
 
 void TASK_5ms()
 {
-
+asw_moveToLine();
 }
 
 void TASK_10ms()
@@ -88,5 +88,7 @@ void TASK_1000ms()
 
 //    RTE_setAngle(170);
 //    
-    asw_moveRightAndLeft();
+//    asw_moveRightAndLeft();
+    
+    
 }

@@ -24,6 +24,7 @@
       <itemPath>rte.h</itemPath>
       <itemPath>hal_servo.h</itemPath>
       <itemPath>asw_move.h</itemPath>
+      <itemPath>hal_lf.h</itemPath>
     </logicalFolder>
     <logicalFolder name="LinkerScript"
                    displayName="Linker Files"
@@ -50,6 +51,7 @@
       <itemPath>hal_dc.c</itemPath>
       <itemPath>hal_servo.c</itemPath>
       <itemPath>asw_move.c</itemPath>
+      <itemPath>hal_lf.c</itemPath>
     </logicalFolder>
     <logicalFolder name="ExternalFiles"
                    displayName="Important Files"
@@ -70,11 +72,11 @@
         <targetPluginBoard></targetPluginBoard>
         <platformTool>PICkit3PlatformTool</platformTool>
         <languageToolchain>XC16</languageToolchain>
-        <languageToolchainVersion>1.41</languageToolchainVersion>
+        <languageToolchainVersion>1.36</languageToolchainVersion>
         <platform>3</platform>
       </toolsSet>
       <packs>
-        <pack name="dsPIC33F-GP-MC_DFP" vendor="Microchip" version="1.1.15"/>
+        <pack name="dsPIC33F-GP-MC_DFP" vendor="Microchip" version="1.0.5"/>
       </packs>
       <compileType>
         <linkerTool>
@@ -162,9 +164,6 @@
         <property key="relax" value="false"/>
         <property key="warning-level" value="emit-warnings"/>
       </C30-AS>
-      <C30-CO>
-        <property key="coverage-enable" value=""/>
-      </C30-CO>
       <C30-LD>
         <property key="additional-options-use-response-files" value="false"/>
         <property key="boot-eeprom" value="no_eeprom"/>
