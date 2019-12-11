@@ -87,5 +87,6 @@ void TASK_1000ms()
 
 
 //    RTE_setAngle(170);
-    move_forward();
+//    
+    asw_moveRightAndLeft();
 }

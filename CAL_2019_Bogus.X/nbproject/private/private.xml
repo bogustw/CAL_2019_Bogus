@@ -3,21 +3,11 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/D:/CAL/CAL2019-2020/CAL_s7/CAL_2019_Bogus/CAL_2019_Bogus.X/hal_dc.c</file>
-            <file>file:/D:/CAL/CAL2019-2020/CAL_s7/CAL_2019_Bogus/CAL_2019_Bogus.X/asw_com.c</file>
-            <file>file:/D:/CAL/CAL2019-2020/CAL_s7/CAL_2019_Bogus/CAL_2019_Bogus.X/hal_servo.h</file>
-            <file>file:/D:/CAL/CAL2019-2020/CAL_s7/CAL_2019_Bogus/CAL_2019_Bogus.X/mcal_timers.h</file>
-            <file>file:/D:/CAL/CAL2019-2020/CAL_s7/CAL_2019_Bogus/CAL_2019_Bogus.X/light_sig.c</file>
-            <file>file:/D:/CAL/CAL2019-2020/CAL_s7/CAL_2019_Bogus/CAL_2019_Bogus.X/sys_tasks.c</file>
-            <file>file:/D:/CAL/CAL2019-2020/CAL_s7/CAL_2019_Bogus/CAL_2019_Bogus.X/hal_servo.c</file>
-            <file>file:/D:/CAL/CAL2019-2020/CAL_s7/CAL_2019_Bogus/CAL_2019_Bogus.X/asw_move.c</file>
-            <file>file:/D:/CAL/CAL2019-2020/CAL_s7/CAL_2019_Bogus/CAL_2019_Bogus.X/light_sig.h</file>
-            <file>file:/D:/CAL/CAL2019-2020/CAL_s7/CAL_2019_Bogus/CAL_2019_Bogus.X/rte.h</file>
-            <file>file:/D:/CAL/CAL2019-2020/CAL_s7/CAL_2019_Bogus/CAL_2019_Bogus.X/asw_move.h</file>
-            <file>file:/D:/CAL/CAL2019-2020/CAL_s7/CAL_2019_Bogus/CAL_2019_Bogus.X/sys_schedule.c</file>
-            <file>file:/D:/CAL/CAL2019-2020/CAL_s7/CAL_2019_Bogus/CAL_2019_Bogus.X/asw_com.h</file>
-            <file>file:/D:/CAL/CAL2019-2020/CAL_s7/CAL_2019_Bogus/CAL_2019_Bogus.X/general_types.h</file>
-            <file>file:/D:/CAL/CAL2019-2020/CAL_s7/CAL_2019_Bogus/CAL_2019_Bogus.X/hal_dc.h</file>
+            <file>file:/D:/documente/AN%20III/CAL/CAL_2019_Bogus/CAL_2019_Bogus/CAL_2019_Bogus.X/hal_dc.h</file>
+            <file>file:/D:/documente/AN%20III/CAL/CAL_2019_Bogus/CAL_2019_Bogus/CAL_2019_Bogus.X/hal_dc.c</file>
+            <file>file:/D:/documente/AN%20III/CAL/CAL_2019_Bogus/CAL_2019_Bogus/CAL_2019_Bogus.X/light_sig.h</file>
+            <file>file:/D:/documente/AN%20III/CAL/CAL_2019_Bogus/CAL_2019_Bogus/CAL_2019_Bogus.X/sys_tasks.c</file>
+            <file>file:/D:/documente/AN%20III/CAL/CAL_2019_Bogus/CAL_2019_Bogus/CAL_2019_Bogus.X/light_sig.c</file>
         </group>
     </open-files>
 </project-private>

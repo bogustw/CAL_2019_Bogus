@@ -10,6 +10,9 @@
 #include "hal_servo.h"
 #include "hal_dc.h"
 
+void asw_moveInit();
+void asw_moveUpAndDown();
+void asw_moveRightAndLeft();
 void move_forward();
 
 #ifdef	__cplusplus

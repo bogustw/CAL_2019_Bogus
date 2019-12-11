@@ -11,12 +11,12 @@
 #include "hal_dc.h"
 #include "hal_servo.h"
 
-
+#define RTE_vMotorInit Hal_vMotorInit
 #define RTE_vSetMotorDir Hal_vSetMotDir
-#define RTE_vsetMotorSpeed Hal_vSetMotorSpeed
+#define RTE_vSetMotorSpeed Hal_vSetMotorSpeed
 #define RTE_vMotorInit Hal_vMotorInit
 //#define RTE_servoInit Hal_servoInit
-#define RTE_setAngle Hal_setAngle
+#define RTE_vSetAngle Hal_setAngle
 
 #ifdef	__cplusplus
 extern "C" {
