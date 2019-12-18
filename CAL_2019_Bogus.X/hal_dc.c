@@ -11,6 +11,7 @@ void Hal_vSetMotorSpeed(T_F16 speed){
 }
 
 void Hal_vSetMotDir(BOOL dir){
-    GPIO_u8WritePortPin(PORTA, 9, dir);
+    
+    GPIO_u8WritePortPin(PORT_A, 9, dir);
     
 }

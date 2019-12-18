@@ -81,19 +81,74 @@ void asw_moveRightAndLeft()
 
 void asw_moveToLine(){
 //    static T_U16 time = 0;
-    if(Hal_vGetLineFollower() == 0 )
-    {
-        RTE_vSetMotorDir(0);
-        RTE_vSetMotorSpeed(20);
-    }else if(Hal_vGetLineFollower() != 0){
-        RTE_vSetMotorDir(1);
-         RTE_vSetMotorSpeed(2);
-    }
+//    if((Hal_vGetLineFollower() & 12 ) >3 && (Hal_vGetLineFollower() & 12 ) < 13)
+//    {
+//        RTE_vSetMotorDir(0);
+//        RTE_vSetMotorSpeed(25);
+//    }
+//    else if((Hal_vGetLineFollower() & 3)>0 &&(Hal_vGetLineFollower() & 3 )<2){
+//        RTE_vSetMotorDir(0);
+//         RTE_vSetMotorSpeed(25);
+//         RTE_vSetAngle(110);
+//    }
+//    else if((Hal_vGetLineFollower() & 3)>2 &&(Hal_vGetLineFollower() & 3 )<4){
+//        RTE_vSetMotorDir(0);
+//         RTE_vSetMotorSpeed(20);
+//         RTE_vSetAngle(100);
+//    }
+//    else if((Hal_vGetLineFollower() & 48)>16 &&(Hal_vGetLineFollower() & 48 )<33){
+//        RTE_vSetMotorDir(0);
+//         RTE_vSetMotorSpeed(25);
+//         RTE_vSetAngle(78);
+//    }
+//    else if((Hal_vGetLineFollower() & 48)>15 &&(Hal_vGetLineFollower() & 48 )<33){
+//        RTE_vSetMotorDir(0);
+//         RTE_vSetMotorSpeed(25);
+//         RTE_vSetAngle(65);
+//    }
+//    else if(Hal_vGetLineFollower()&63 ==0){
+//        RTE_vSetMotorDir(0);
+//         RTE_vSetMotorSpeed(1);
+//    }
 //    if(time < 15)
 //        ++time;
 //    else
 //        time = 0;
     
+    T_U8 val_negru = Hal_vGetLineFollower();
+    
+    if (val_negru!=0){
+        RTE_vSetMotorSpeed(30);
+        __delay_ms(10);
+
+        if( 0b00100000 & val_negru){
+            RTE_vSetAngle(65);
+            __delay_ms(10);
+        }
+        if( 0b00010000 & val_negru){
+            RTE_vSetAngle(80);
+            __delay_ms(10);
+        }
+        if( 0b00001100 & val_negru){
+            RTE_vSetAngle(90);
+            __delay_ms(10);
+        }
+        if( 0b00000001 & val_negru){
+            RTE_vSetAngle(110);
+            __delay_ms(10);
+        }
+        if( 0b00000010 & val_negru){
+            RTE_vSetAngle(100);
+            __delay_ms(10);
+        }
+    }
+    else {
+          RTE_vSetMotorDir(1);
+            RTE_vSetMotorSpeed(10);
+    }
+    
+    
+
 }
 
 

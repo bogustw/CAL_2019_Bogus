@@ -37,7 +37,8 @@ T_U8 Hal_vGetLineFollower(){
     
     portValue = GPIO_u16ReadPort(PORT_C);// citire
            
-    return (T_U8)(portValue & MASK);
+//    return (T_U8)(portValue & MASK);
+    return (T_U8)portValue ;
 
 
     

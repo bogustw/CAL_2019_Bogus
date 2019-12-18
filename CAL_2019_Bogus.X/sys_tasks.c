@@ -38,7 +38,9 @@ void TASK_1ms()
 
 void TASK_5ms()
 {
-asw_moveToLine();
+ 
+//    RTE_vSetMotorSpeed(20);
+    
 }
 
 void TASK_10ms()
@@ -49,6 +51,7 @@ void TASK_10ms()
 //        GPIO_u8WritePortPin(PORT_A, 10,a);
 //    }
 //    counter = 0;
+      asw_moveToLine();
 }
 
 void TASK_100ms()
@@ -83,7 +86,7 @@ void TASK_1000ms()
 //    a = !a;
 //    GPIO_u8WritePortPin(PORT_A, 10, a);
 //        RTE_vMotorInit();
-//    RTE_vsetMotorSpeed(30);
+//    RTE_vSetMotorSpeed(30);
 
 
 //    RTE_setAngle(170);
