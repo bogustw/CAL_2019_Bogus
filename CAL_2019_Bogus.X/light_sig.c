@@ -1,6 +1,7 @@
 #include "light_sig.h"
 #include "sys_tasks.h"
 #include "general.h"
+#include "hal_battery.h"
 
 
 void lowBattery(void) // every 100 ms 
@@ -39,6 +40,11 @@ void obstacleDetected(void)  // every 10 ms
     }
         
     
+    
+}
+
+void batteryLevel(){
+    T_U8 level = Hal_readBattery();
     
 }
 
