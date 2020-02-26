@@ -14,6 +14,8 @@
 #include "mcal_gpio.h"
 #include "rte.h"
 #include "asw_move.h"
+#include "mcal_interrupts.h"
+#include "general_types.h"
 
 T_U16 a = 0;
 int counter = 0;
@@ -51,7 +53,7 @@ void TASK_10ms()
 //        GPIO_u8WritePortPin(PORT_A, 10,a);
 //    }
 //    counter = 0;
-      asw_moveToLine();
+//      asw_moveToLine();
 }
 
 void TASK_100ms()
@@ -74,6 +76,17 @@ void TASK_100ms()
 //         }
 //        }
 //    Handle_light_signal();
+    
+ //_________________________________
+     
+    if (obs_Det == TRUE){
+        GPIO_u8WritePortPin(PORT_A, 10,0);
+//        asw_moveToLine();
+        
+    }else {
+        GPIO_u8WritePortPin(PORT_A, 10,1);
+//        RTE_vSetMotorSpeed(0);
+        }
 }
 
 void TASK_500ms()

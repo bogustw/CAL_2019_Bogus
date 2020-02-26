@@ -3,11 +3,19 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/D:/CAL/CAL2019-2020/CAL_s9/CAL_2019_Bogus/CAL_2019_Bogus.X/hal_lf.c</file>
-            <file>file:/D:/CAL/CAL2019-2020/CAL_s9/CAL_2019_Bogus/CAL_2019_Bogus.X/sys_tasks.c</file>
-            <file>file:/D:/CAL/CAL2019-2020/CAL_s9/CAL_2019_Bogus/CAL_2019_Bogus.X/asw_move.c</file>
-            <file>file:/D:/CAL/CAL2019-2020/CAL_s9/CAL_2019_Bogus/CAL_2019_Bogus.X/hal_dc.c</file>
-            <file>file:/D:/CAL/CAL2019-2020/CAL_s9/CAL_2019_Bogus/CAL_2019_Bogus.X/rte.h</file>
+            <file>file:/D:/CAL_2019-2020_Bogus/CAL_2019_Bogus/CAL_2019_Bogus.X/sys_tasks.h</file>
+            <file>file:/D:/CAL_2019-2020_Bogus/CAL_2019_Bogus/CAL_2019_Bogus.X/general_types.h</file>
+            <file>file:/D:/CAL_2019-2020_Bogus/CAL_2019_Bogus/CAL_2019_Bogus.X/hal_lf.c</file>
+            <file>file:/D:/CAL_2019-2020_Bogus/CAL_2019_Bogus/CAL_2019_Bogus.X/hal_battery.c</file>
+            <file>file:/D:/CAL_2019-2020_Bogus/CAL_2019_Bogus/CAL_2019_Bogus.X/asw_move.h</file>
+            <file>file:/D:/CAL_2019-2020_Bogus/CAL_2019_Bogus/CAL_2019_Bogus.X/general.h</file>
+            <file>file:/D:/CAL_2019-2020_Bogus/CAL_2019_Bogus/CAL_2019_Bogus.X/mcal_interrupts.c</file>
+            <file>file:/D:/CAL_2019-2020_Bogus/CAL_2019_Bogus/CAL_2019_Bogus.X/mcal_interrupts.h</file>
+            <file>file:/D:/CAL_2019-2020_Bogus/CAL_2019_Bogus/CAL_2019_Bogus.X/asw_move.c</file>
+            <file>file:/D:/CAL_2019-2020_Bogus/CAL_2019_Bogus/CAL_2019_Bogus.X/mcal_gpio.c</file>
+            <file>file:/D:/CAL_2019-2020_Bogus/CAL_2019_Bogus/CAL_2019_Bogus.X/nbproject/Makefile-default.mk</file>
+            <file>file:/D:/CAL_2019-2020_Bogus/CAL_2019_Bogus/CAL_2019_Bogus.X/sys_tasks.c</file>
+            <file>file:/D:/CAL_2019-2020_Bogus/CAL_2019_Bogus/CAL_2019_Bogus.X/light_sig.c</file>
         </group>
     </open-files>
 </project-private>
