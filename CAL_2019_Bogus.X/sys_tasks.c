@@ -78,15 +78,18 @@ void TASK_100ms()
 //    Handle_light_signal();
     
  //_________________________________
-     
-    if (obs_Det == TRUE){
-        GPIO_u8WritePortPin(PORT_A, 10,0);
+//     
+//    if (obs_Det == TRUE){
+//        GPIO_u8WritePortPin(PORT_A, 10,0);
 //        asw_moveToLine();
-        
-    }else {
-        GPIO_u8WritePortPin(PORT_A, 10,1);
+//        asw_moveDistance(10);
+//        
+//    }else {
+//        GPIO_u8WritePortPin(PORT_A, 10,1);
 //        RTE_vSetMotorSpeed(0);
-        }
+//        }
+    
+      
 }
 
 void TASK_500ms()
@@ -105,6 +108,7 @@ void TASK_1000ms()
 //    RTE_setAngle(170);
 //    
 //    asw_moveRightAndLeft();
-    
+    asw_moveDistance(10);
+  
     
 }

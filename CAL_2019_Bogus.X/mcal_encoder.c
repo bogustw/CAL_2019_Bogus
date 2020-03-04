@@ -58,3 +58,14 @@ void QEI_vResetCount()
 
 
 
+T_S16 QEI_s16getElapsed(){
+    T_S16 count_revolutions ;
+    count_revolutions = QEI_u16getCount();
+    
+    count_revolutions -= 32000 ;
+    QEI_vResetCount();
+    
+    return count_revolutions;
+}
+
+

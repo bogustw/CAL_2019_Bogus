@@ -8,5 +8,7 @@ general_types.h  \
 mcal_gpio.h  \
 hal_dc.h  \
 hal_lf.h  \
+ mcal_encoder.h  \
 rte.h  \
- sys_tasks.h 
+hal_distance.h  \
+sys_tasks.h 

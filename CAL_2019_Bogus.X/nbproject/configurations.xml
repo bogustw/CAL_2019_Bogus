@@ -26,6 +26,7 @@
       <itemPath>asw_move.h</itemPath>
       <itemPath>hal_lf.h</itemPath>
       <itemPath>hal_battery.h</itemPath>
+      <itemPath>hal_distance.h</itemPath>
     </logicalFolder>
     <logicalFolder name="LinkerScript"
                    displayName="Linker Files"
@@ -54,6 +55,7 @@
       <itemPath>asw_move.c</itemPath>
       <itemPath>hal_lf.c</itemPath>
       <itemPath>hal_battery.c</itemPath>
+      <itemPath>hal_distance.c</itemPath>
     </logicalFolder>
     <logicalFolder name="ExternalFiles"
                    displayName="Important Files"

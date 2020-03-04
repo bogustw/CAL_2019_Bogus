@@ -10,6 +10,7 @@
 
 #include "mcal_pwm.h"
 
+
 void Hal_vMotorInit();
 void Hal_vSetMotorSpeed(T_F16 speed);
 void Hal_vSetMotDir(BOOL dir);

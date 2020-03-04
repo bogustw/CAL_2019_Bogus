@@ -183,3 +183,17 @@ void move_forward(){
     
     
 }
+
+
+void asw_moveDistance(T_S16 centimeters){
+    static T_S16 moved = 0;
+    moved += RTE_vGetCentimeters();
+    if ( (centimeters - moved) > 0 ){
+        RTE_vSetMotorSpeed(30);
+    }
+    else {
+        RTE_vSetMotorSpeed(1);
+        
+    }
+    
+}
